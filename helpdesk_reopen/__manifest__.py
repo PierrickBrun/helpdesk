@@ -5,7 +5,7 @@
 
 {
     "name": "Helpdesk Reopen",
-    "version": "12.0.0.1.0",
+    "version": "10.0.0.1.0",
     "category": "Helpdesk",
     "summary": "Auto Helpdesk Reopen",
     "description": """
@@ -13,6 +13,6 @@
 	""",
     "author": "Odoo Community Association (OCA), OERP, Coop IT Easy SCRLfs",
     "website": "https://github.com/OCA/helpdesk",
-    "depends": ["helpdesk_mgmt"],
+    "depends": ["helpdesk"],
     "installable": True,
 }
