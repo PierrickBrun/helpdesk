@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Author: Andrius Laukavičius. Copyright: JSC NOD Baltic
 # Copyright 2019 Coop IT Easy SCRLfs
 # @author Pierrick Brun <pierrick.brun@akretion.com>
@@ -12,8 +11,8 @@
     "description": """
 	Automatically reopens helpdesk queries if someone replies back to that query
 	""",
-    "author": "OERP, Coop IT Easy SCRLfs",
-    "website": "www.oerp.eu",
-    "depends": ["helpdesk", "mail"],
+    "author": "Odoo Community Association (OCA), OERP, Coop IT Easy SCRLfs",
+    "website": "https://github.com/OCA/helpdesk",
+    "depends": ["helpdesk_mgmt"],
     "installable": True,
 }
